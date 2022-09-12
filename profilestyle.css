@@ -1,5 +1,6 @@
 body {
     background-color: #ededed;
+    margin: 0;
 }
 h1 {
     background-color: #63887d; 
@@ -9,30 +10,32 @@ h1 {
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #2d6454;
-    position: fixed;
-    width: 100%;
-    position: -webkit-sticky;
-    position: sticky;
-    border-top-left-radius: 0%;
-    height: 100%;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
+main {
+    grid-column: 2 / 3;
+    margin-left: 160px;
   }
-  
-  li {
+.right-side {
+    grid-column: 3 / 4;
+  }  
+footer {
+    grid-column: 1 / 4;
+  }
+header ul {
+    list-style-type: none;
+    background-color: #63887d;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    padding: 0
+
+  }
+header li {
     float: left;
   }
-  
-  li a {
-    display: block;
+header li a {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -44,26 +47,30 @@ a:hover {
 .active {
     background-color: #a0b1ac;
   }
- div ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
-    background-color: #63887d;
-    height: 100%;
-    position: fixed;
-    top: 54px;
-    padding: 8px 16px;
-  }
-  
- div li a {
-    display: block;
-    color: white;
-    padding: 8px 16px;
-    text-decoration: none;
-    text-align: left;
-    width: 200px;
-  }
+.sidenav{
+  height: 100%;
+  min-width: auto;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  background-color: #63887d;
+  overflow-x: hidden;
+  padding-top: 10px;
+  margin-top: 46px;
+}
+.sidenav ul{
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+.sidenav a{
+  padding: 14px 8px 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  display: block;
+  width: 160px
+}
 div li a:hover {
     background-color: #2d6454;
   }
