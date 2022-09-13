@@ -1,0 +1,26 @@
+table {
+    width: 75%;
+    border-collapse: collapse;
+}
+table tr td{
+    border: 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-color: #7a857f;
+    background-color: #e1e1de;
+}
+.top{
+    background-color: #174f3f;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+    position: relative; top: 10px;
+}
+progress {
+    width: 895px;
+    height: 20px;
+    position: relative; top: 10px;
+}

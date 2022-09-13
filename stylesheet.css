@@ -12,7 +12,7 @@ main {
 footer {
     grid-column: 1 / 4;
   }
-header ul {
+.menu ul {
     list-style-type: none;
     background-color: #638874;
     width: 100%;
@@ -22,10 +22,10 @@ header ul {
     margin: 0;
     padding: 0;
   }
-header li {
+.menu li {
     float: left;
   }
-header li a {
+.menu li a {
     display: inline-block;
     color: white;
     text-align: center;
@@ -62,13 +62,13 @@ a:hover {
 .sidenav a{
   padding: 14px 8px 14px 16px;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 15px;
   color: white;
   display: block;
   width: 160px;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
 }
 div li a:hover {
     background-color: #174f3f;
   }
-
