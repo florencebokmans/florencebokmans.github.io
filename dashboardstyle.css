@@ -1,5 +1,5 @@
 table {
-    width: 75%;
+    width: 85%;
     border-collapse: collapse;
 }
 table tr td{
@@ -20,7 +20,7 @@ label {
     position: relative; top: 10px;
 }
 progress {
-    width: 895px;
+    width: 80%;
     height: 20px;
     position: relative; top: 10px;
 }
