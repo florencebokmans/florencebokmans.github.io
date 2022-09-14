@@ -1,0 +1,30 @@
+h3 {
+    background-color: #638874; 
+    color: white; 
+    margin-right: 700px; 
+    padding: 7px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.activities{
+    width: 450px;
+    height: 150px;
+    text-align: justify;
+  }
+.hz {
+    float: right;
+    margin-right: 710px;
+    position: relative; bottom: 130px;
+  }
+.fit {
+    width: 500px;
+    height: 150px;
+    text-align: justify;
+    position: relative; left: 750px;
+}
+.idk {
+   position: relative; left: 525px 
+}
+.ict {
+    position: relative; bottom: 162px;
+}
