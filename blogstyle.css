@@ -52,3 +52,6 @@ table tr td{
     position: relative; top: 330px;
     padding-bottom: 200px;
 }
+body{
+    z-index: 1;
+}
