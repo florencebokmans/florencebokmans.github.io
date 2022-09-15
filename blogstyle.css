@@ -1,0 +1,54 @@
+h3 {
+    background-color: #638874; 
+    color: white; 
+    margin-right: 700px; 
+    padding: 7px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative; top: 100px;
+}
+.blog1{
+    width: 600px;
+    height: 150px;
+    text-align: justify;
+    position: relative; top: 110px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    position: relative; top: 210px;
+}
+table tr td{
+    border: 1px solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border-color: #7a857f;
+    background-color: #e1e1de;
+}
+.top{
+    background-color: #174f3f;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.swot{
+    position: relative; top: 200px;
+}
+.post3{
+    position: relative; top: 300px;;
+}
+.exp{
+    width: 600px;
+    height: 150px;
+    text-align: justify;
+    position: relative; top: 310px;
+}
+.post4{
+    position: relative; top: 320px;
+}
+.fb{
+    width: 700px;
+    height: 150px;
+    text-align: justify;
+    position: relative; top: 330px;
+    padding-bottom: 200px;
+}

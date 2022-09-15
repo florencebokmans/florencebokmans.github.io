@@ -9,6 +9,11 @@ table tr td{
     border-color: #7a857f;
     background-color: #e1e1de;
 }
+th td{
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .top{
     background-color: #174f3f;
     color: white;
