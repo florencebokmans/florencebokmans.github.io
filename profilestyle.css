@@ -2,7 +2,7 @@ h3 {
     background-color: #638874; 
     color: white; 
     margin-right: 700px; 
-    width: 800px;
+    width: 1260px;
     padding: 7px;
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -13,12 +13,9 @@ h3 {
   color: #3d3e3e;
 }
 .PhotoMe{
-  position: relative; left: 242px;
+  position: relative; left: 700px;
 }
-.ActivitiesTitle{
-  position: relative; left: 400px;
-  width: 1100px;
-}
+
 .ActivitiesText{
   width: 700px;
   height: 150px;
