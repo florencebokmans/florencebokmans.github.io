@@ -7,10 +7,14 @@ table tr td{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     border-color: #7a857f;
-    background-color: #e1e1de;
+    background-color: #eff0f0;
+    padding: 20px;
+    width: 200px;
 }
 .top{
-    background-color: #174f3f;
+    background-color: #62969b;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-collapse: collapse;
+    border-color: #7a857f;
 }

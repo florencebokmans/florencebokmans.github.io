@@ -10,7 +10,7 @@ table tr td{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     border-color: #6c7f8d;
-    background-color: #f6fdff;
+    background-color: #eff0f0;
     padding: 10px;
 }
 th td{
@@ -19,7 +19,7 @@ th td{
     padding-bottom: 20px;
 }
 .top{
-    background-color: #62839b;
+    background-color: #62969b;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
