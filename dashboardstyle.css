@@ -1,3 +1,6 @@
+main{
+    padding-top: 0px;
+}
 table {
     width: 85%;
     border-collapse: collapse;
@@ -6,8 +9,9 @@ table tr td{
     border: 1px solid;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    border-color: #7a857f;
-    background-color: #e1e1de;
+    border-color: #6c7f8d;
+    background-color: #f6fdff;
+    padding: 10px;
 }
 th td{
     padding: 15px;
@@ -15,7 +19,7 @@ th td{
     padding-bottom: 20px;
 }
 .top{
-    background-color: #174f3f;
+    background-color: #62839b;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -27,5 +31,18 @@ label {
 progress {
     width: 80%;
     height: 20px;
+    position: relative; top: 5px; left: 7px;
+}
+.NSBA{
+    position: relative; left: 10px;
+}
+.progressText{
     position: relative; top: 10px;
+}
+.NSBAText{
+    position: relative; top: 3px;
+}
+div{
+    margin-bottom: 100px;
+    top: 10px;
 }
