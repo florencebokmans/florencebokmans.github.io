@@ -46,7 +46,7 @@ h3 {
 
 .KeyboardPhoto {
     position: relative;
-    bottom: 300px;
+    bottom: 350px;
 }
 
 p {
@@ -86,4 +86,5 @@ p {
 .fa-spotify {
     background: #15352d;
     color: white;
+
 }
