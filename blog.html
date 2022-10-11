@@ -144,34 +144,45 @@
       race to race. I would love to be able to be a part of the RedBull Racing team, either at the factory or next to
       the track. It's something i'm very pasionate about.
     </p>
-    </div>
-    <button type="button" class="collapsible">Company Safari Google +</button>
-    <div class="content">
-      <p>
-        Google is one of the younger companies but now one of the largest today. It was founded in 2004 and has 85.000
-        employes. They operate one of the worlds most used web applications and search engines wich is their mission and
-        responsibility.
-        <br>
-        <br> Google is one of the biggest companies there is if you're looking for a job in IT. For me it seems like a
-        real challange to work at a big company that has so much impact on peoples lives.
-      </p>
-      </div>
-      <script>
-        var coll = document.getElementsByClassName("collapsible");
-        var i;
+  </div>
+  <button type="button" class="collapsible">Company Safari Google +</button>
+  <div class="content">
+    <p>
+      Google is one of the younger companies but now one of the largest today. It was founded in 2004 and has 85.000
+      employes. They operate one of the worlds most used web applications and search engines wich is their mission and
+      responsibility.
+      <br>
+      <br> Google is one of the biggest companies there is if you're looking for a job in IT. For me it seems like a
+      real challange to work at a big company that has so much impact on peoples lives.
+    </p>
+  </div>
+  <button type="button" class="collapsible">Company Safari Bomont +</button>
+  <div class="content">
+    <p>Bomont is a fairly local company where i work on weekends. It's very family oriënted not only with clothes but
+      the whole team as well. I think it could be a real challenge to work at a smaller company and help it expand into
+      the rest of the country of maybe even outside of that.
+      <br>
+      <br>
+      I've been on the headquarters more than ones and already know some things about working there and it would be very
+      nice to be able to help make it even better.
+    </p>
+  </div>
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
 
-        for (i = 0; i < coll.length; i++) {
-          coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-              content.style.display = "none";
-            } else {
-              content.style.display = "block";
-            }
-          });
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
         }
-      </script>
+      });
+    }
+  </script>
 </body>
 
 </html>
