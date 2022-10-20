@@ -35,6 +35,7 @@ progress {
 }
 .NSBA{
     position: relative; left: 10px;
+    color: green;
 }
 .progressText{
     position: relative; top: 10px;
